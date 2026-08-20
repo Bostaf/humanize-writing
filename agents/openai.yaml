@@ -1,0 +1,14 @@
+interface:
+  display_name: Humanize Writing
+  short_description: Make writing natural, author-grounded, and specific
+  default_prompt: Use $humanize-writing to preserve my real voice, remove templated
+    AI patterns, and revise this text without losing facts or meaning.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
